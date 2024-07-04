@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    display:flex;
+} 
+.post {
+    background-color: white;
+    width: 40%;
+    border-radius:10px;
+}
+.pic {
+    width: 100%;
+}
+.fa-solid fa-ellipsis-vertical {
+    color: white;
+}
+div {
+    margin: 5px;
+}
+i {
+    font-size: 24px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    .fa-user {
+        margin-right:auto;
+        margin-left: 15px;
+    }
+    strong {
+        margin-right: auto;
+    }
+}
+.ig-icons {
+    display: flex;
+    justify-content: space-between;
+    .fa-paper-plane {
+        margin-right: 200px;
+    }
+}
+
+.like {
+    border: none;
+    background: none;
+}
+.like:active {
+    background-color: red;
+    
+}
